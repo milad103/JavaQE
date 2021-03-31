@@ -1,6 +1,4 @@
-package day6;
-
-import java.util.Locale;
+package mentoring4;
 
 public class ReturnAllCAPS {
 
@@ -17,7 +15,7 @@ public class ReturnAllCAPS {
     }
 
 
-static String allCaps(String f) {
+static String  allCaps(String f) {
     return f.toUpperCase();
 
 }
