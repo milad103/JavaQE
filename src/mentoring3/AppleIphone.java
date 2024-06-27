@@ -20,7 +20,14 @@ public abstract class AppleIphone implements CellPhone {
 
     }
 
+    @Override
+    public void lightWeight() {
+        System.out.println("pocket size and lightweight");
+
+    }
+
     void AIcamera(){
+
         System.out.println("AI 360 degree camera");
     }
     abstract void BrandName();

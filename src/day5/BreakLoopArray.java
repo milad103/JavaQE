@@ -7,11 +7,11 @@ public class BreakLoopArray {
         String days[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
         for (int i=0; i<=days.length; i++){
-            System.out.println(days[i]);
+
             if (days[i] == "Wednesday"){
                 break;
             }
-
+            System.out.println(days[i]);
         }
     }
 }

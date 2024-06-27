@@ -11,7 +11,7 @@ public class ParameterPractice2 {
         zikr("Alhamdulillah", 33);
         zikr("AllahoAkrbar", 33);
         zikr("SubhanAllah", 33);
-
+        zikr("la ilaha illa ALLAH", 1);
     }
 
 

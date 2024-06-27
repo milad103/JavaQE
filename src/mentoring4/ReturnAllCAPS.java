@@ -15,8 +15,8 @@ public class ReturnAllCAPS {
     }
 
 
-static String  allCaps(String f) {
-    return f.toUpperCase();
+static String  allCaps(String words) {
+    return words.toUpperCase();
 
 }
 

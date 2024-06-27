@@ -27,6 +27,7 @@ reff.nonStaticMethod1();
 
 
     void nonStaticMethod1(){
+
         System.out.println("im non static method");
     }
 }

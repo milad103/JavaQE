@@ -12,6 +12,7 @@ public class WriteHere {
 
 
     void methodWriteHere1(){
+
         System.out.println("This id write here methode");
     }
     void methodWriteHere2() {

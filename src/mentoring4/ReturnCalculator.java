@@ -11,8 +11,8 @@ public class ReturnCalculator {
 
 
 
-
     static int Multiplication(int num1, int num2){
+
         return num1*num2;
     }
 }

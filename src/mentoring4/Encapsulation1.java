@@ -8,10 +8,13 @@ public class Encapsulation1 {
 
         Encapsulation1 encap = new Encapsulation1();
         encap.setCreditCardNumber(4521965812358596l);
+        encap.setBankCustomer("JamesCrawford");
+        encap.setBankCustomer("MangoJames");
 
 
     }
     public long getCreditCardNumber() {
+
         return creditCardNumber;
     }
 
@@ -26,5 +29,16 @@ public class Encapsulation1 {
 // step1: create 2 private integers
     // step2:  right click and hit generate to choose getter and setter
     private long creditCardNumber;
+
+    public String getBankCustomer() {
+        return bankCustomer;
+    }
+
+    public void setBankCustomer(String bankCustomer) {
+        this.bankCustomer = bankCustomer;
+        System.out.println(bankCustomer);
+    }
+
+    private String bankCustomer;
 
 }

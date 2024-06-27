@@ -8,6 +8,7 @@ public class Calculations {
     }
 
     void division(int k, int j) {
+
         int f = k / j;
     }
 

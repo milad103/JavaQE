@@ -8,15 +8,19 @@ public class ChildClass extends FatherClass {
 
 
     void example1() {
-        System.out.println("IM A METHOD BUT WITHIN THE Child");
+
+        System.out.println("IM A METHOD BUT WITHIN THE Child class");
 
        }
 
 
        void combiningMethod(){
+
         super.example1();
         this.example1();
         super.fatherClassMethod();
+        fatherStaticMethod();
+        fatherClassMethod();
 
 
        }

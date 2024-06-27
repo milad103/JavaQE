@@ -8,8 +8,8 @@ public class ReturnLowerCase {
         System.out.println(z);
     }
 
-    static String lowerCase(String i){
-        return i.toLowerCase();
+    static String lowerCase(String word){
+        return word.toLowerCase();
 
     }
 }

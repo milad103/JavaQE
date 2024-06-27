@@ -21,8 +21,6 @@ public class SwitchPractice1 {
         case 4:
                 System.out.println("It's April");
                 break;
-
-
         }
 
 

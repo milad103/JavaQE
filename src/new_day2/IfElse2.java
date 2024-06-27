@@ -9,7 +9,7 @@ public class IfElse2 {
         if(age<10){
             System.out.println("You must perform 'Salaat' ");
         }else{
-            System.out.println("you are obliged to perform 'Salaat'");
+            System.out.println("you are not obliged to perform 'Salaat'");
         }
     }
 }

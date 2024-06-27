@@ -12,11 +12,13 @@ public class FatherClass {
 
 
     static void fatherStaticMethod(){
+
         System.out.println("Im father static method locaed in Father class");
     }
 
 
     void fatherNonStaticClass(){
+
         System.out.println( "NON static Printing method from father");
 
     }

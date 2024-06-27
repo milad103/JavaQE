@@ -6,10 +6,10 @@ public class EqualsMethod {
 
 String arg[] = { "-en"};
 
-        if(args[0].equals("-en")){
+        if(arg[0].equals("-en")){
             System.out.println("English Option");
 
-        }else if(args[0].equals("-es")){
+        }else if(arg[0].equals("-es")){
             System.out.println("Spanish Option");
 
         } else{

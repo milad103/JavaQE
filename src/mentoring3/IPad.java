@@ -21,6 +21,12 @@ public class IPad implements Tablet {
 
     }
 
+    @Override
+    public void rectangularShape() {
+        System.out.println("rectangular shape is a must have design");
+
+    }
+
     void frontandRearCamera(){
         System.out.println( "8 MP for front and 14 MP for the rear");
 

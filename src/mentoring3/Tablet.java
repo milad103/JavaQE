@@ -6,4 +6,5 @@ public interface Tablet {
     void touchScreen();
     void operatingSystem();
     void rechargeableBattery();
+    void rectangularShape();
 }

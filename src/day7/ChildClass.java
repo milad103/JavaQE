@@ -11,6 +11,8 @@ public class ChildClass extends FatherClass{
 
 
     void example1() {
+
+
         System.out.println("sample example but from child class");
     }
 

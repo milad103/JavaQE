@@ -4,7 +4,7 @@ public class IfElseIfCreditScore {
 
     public static void main(String[] args) {
 
-         int creditScore =5555;
+         int creditScore =555;
 
          if(creditScore >= 300 && creditScore <= 500){
              System.out.println("Poor credit score");

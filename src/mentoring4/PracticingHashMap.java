@@ -23,12 +23,23 @@ public class PracticingHashMap {
 
         System.out.println(carModelAndPlate);
 
-        //for (String luxuryCars:carModelAndPlate.keySet()) {
-            //System.out.println(luxuryCars);
+        // Create a HashMap object called capitalCities
+        HashMap<String, String> capitalCities = new HashMap<String, String>();
 
-        //}
-        //for (String luxuryCars:carModelAndPlate.values()) {
-            //System.out.println(luxuryCars);
-        //}
+        // Add keys and values (Country, City)
+        capitalCities.put("England", "London");
+        capitalCities.put("Germany", "Berlin");
+        capitalCities.put("Norway", "Oslo");
+        capitalCities.put("USA", "Washington DC");
+        System.out.println(capitalCities);
+// to print out keysets only
+        for (String luxuryCars:carModelAndPlate.keySet()) {
+            System.out.println(luxuryCars);
+
+        }
+        // to print out values only
+        for (String luxuryCars:carModelAndPlate.values()) {
+            System.out.println(luxuryCars);
+        }
     }
 }
